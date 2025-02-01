@@ -31,7 +31,7 @@ public class form1 extends JFrame{
 
                     new Thread(() -> {
                         try {
-                            Thread.sleep(6000);
+                            Thread.sleep(1000);
                         } catch (InterruptedException ex) {
                             ex.printStackTrace();
                         }
